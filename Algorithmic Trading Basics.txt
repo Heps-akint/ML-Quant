@@ -1,0 +1,48 @@
+What is Algorithmic Trading?
+
+Trading with a pre-defined set of rules which are programmed into an algorithm. The algorithm is then programmed and run by a computer. Thus form of trading can be used for both manual and automated trading.
+
+Learning Objectives:
+
+1. Learn High-level concepts in quantitative finance.
+2. Practical application of machine learning in trading.
+3. Develop project from idea to back-tested results.
+4. Possibly execute trades.
+
+Challenges faced when applying ML in trading:
+
+(Reflexivity) Where trading strategies formed around ML models are found and exploited over time by other traders using ml models. This causes specific trades recommended by your model to be arbitraged away.
+
+- Very hard to predict Return Prices.
+- Quite hard to predict Return Signs.
+- Hard to predict Economic Indicator.
+- Not so hard (but still hard) to predict volatility.
+
+We've also got the technical challenges of general machine learning like overfitting, and generalisation, [[Non-Stationary and Regime Shifts]], and interpretation of black-box models.
+
+Workflow Process:
+
+1. Collect and prepare the data.
+2. Develop a hypothesis for the strategy.
+3. Coding the model.
+4. Back-test the strategy.
+
+Unsupervised Learning in Trading:
+
+Using ML techniques to analyse financial data and discover bapperns, relationships, and structures within the data without the data being pre-labelled, or specifying any pre-defined target variables. Unlike supervised learning where the goal is to make classification, unsupervised learning focuses on extracting insights from the data.
+
+Applications of unsupervised Learning in Trading
+
+- Clustering
+- Dimensionality Reduction
+- Anmaly Detection
+- Market Regime Detection
+- Portfolio Optimisation
+
+What is Sentiment Investing?
+
+An investing strateg fovusing on how the population feel about certain stocks. Assumes that public sentiment can impact stock prices (If many people are positive about a company on twitter, it could indicate the potential for that companies stock to perform well.
+
+GARCH Model Strategies:
+
+Thsi involves buying and selling financial assets within the same trading day to profit from short-term price movements. Intraday Traders use technical analysis, real-timr data, and risk management techniques to make quick decisions, aiming to capitilize on market volatility.
